@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 2</title>
+
+    <link rel="stylesheet" href="dom1.css">
+</head>
+<h1>Oppgave 2: Tegn Rektangel</h1>
+
+<body>
+    <form id="områdeform">
+        <label for="leng">Lengde:</label>
+        <input id="leng" type="number">
+        <label for="høyd">Høyde:</label>
+        <input id="høyd" type="number">
+
+        <button onclick="draw()" type="button" id="butt">Tegn Rektangel</button>
+    </form>
+
+    <br>
+
+    <div id="tegnRektangel">
+        <canvas id="rektCanvas" width=500 height=500></canvas>
+    </div>
+</body>
+<script src="dom1.js"></script>
+
+</html>
